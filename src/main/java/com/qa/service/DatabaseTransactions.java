@@ -56,7 +56,7 @@ public class DatabaseTransactions {
 		if (existingAccount != null) {
 			entitymanager.remove(existingAccount);
 		}
-		return "{\\\"message\\\": \\\"account sucessfully deleted\\\"}";
+		return "{\"message\": \"account sucessfully deleted\"}";
 	}
 	
 	public String upadateAnAccount(long id, String accountToChange){
